@@ -27,7 +27,7 @@ typedef unsigned char uint8_t;
 typedef unsigned long uint32_t;
 typedef unsigned long long uint64_t;
 #else  // _MSC_VER
-#include <cstdint.h>
+#include <cstdint>
 #endif  // _MSC_VER
 #else   // _WIN32
 typedef unsigned char uint8_t;
